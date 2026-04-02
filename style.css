@@ -5,3 +5,21 @@ h1{
 p{
     text-align: justify;
 }
+
+.topBar{
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.lowBar{
+    background-color: #f2f2f2;
+    padding: 5px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
