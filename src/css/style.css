@@ -3,8 +3,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+#titulo{
     text-align: center;
+}
+
+#subtitulo{
+    text-align: center;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 p{
@@ -15,9 +21,9 @@ p{
     font-family: 'Georgia', serif;
     color: #800000;
 }
-.topBar{
+.topBar nav{
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 10px 20px;
     text-align: center;
     justify-content: space-between;
     display: flex;
@@ -31,4 +37,19 @@ p{
     justify-content: space-between;
     display: flex;
     flex-direction: row;
+}
+
+
+.container p{
+     display: flex;
+    align-items: center;
+    gap: 20px;   
+}
+
+.texto{
+    width: 50%;
+}
+
+.video{
+    width: 50%; 
 }

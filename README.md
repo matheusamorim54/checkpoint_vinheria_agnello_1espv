@@ -12,6 +12,7 @@ A Vinheria Agnello é uma empresa familiar especializada na venda de vinhos, con
 ## Instruções de uso
 1. Abra o arquivo `index.html` no navegador.
 2. Navegue pelo site para ver o conteúdo e o layout.
+3. Cada pagína possui informações passada na pagina inicial
 
 ## Link do GitHub Pages
 (Adicionar o link aqui quando estiver pronto)
