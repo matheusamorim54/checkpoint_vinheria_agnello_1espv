@@ -14,7 +14,11 @@ body {
 }
 
 #links:hover{
-    color: #dd1313;
+    color: #13b3d7;
+}
+
+#links:active{
+    color: #09e756;
 }
 p{
     text-align: justify;
