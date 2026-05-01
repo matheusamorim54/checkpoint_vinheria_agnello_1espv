@@ -103,3 +103,12 @@ li:last-child{
   animation-iteration-count: infinite;
   animation-direction: alternate; /* faz o efeito ir e voltar suavemente */
 }
+
+ .img-contato {
+    transform: translateX(20px); /* desloca 20px pra direita */
+    transition: transform 0.4s ease;
+}
+
+.img-contato:hover {
+    transform: translateX(0px) scale(1.05); /* volta e cresce levemente no hover */
+}
