@@ -91,3 +91,33 @@ li:nth-child(3){
 li:last-child{
     color: #3e3d3d;
 }
+
+@keyframes aparecer {
+  0%   { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.titulo-termos {
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; /* faz o efeito ir e voltar suavemente */
+}
+
+ .img-contato {
+    transform: translateX(20px); /* desloca 20px pra direita */
+    transition: transform 0.4s ease;
+}
+
+.img-contato:hover {
+    transform: translateX(0px) scale(1.05); /* volta e cresce levemente no hover */
+}
+
+.img-lorenzo {
+    transform: rotateX(25deg);
+    transition: transform 0.5s ease;
+}
+
+.img-lorenzo:hover {
+    transform: rotateX(0deg);
+}
