@@ -3,5 +3,5 @@
 [X] Animação com @keyframes
 [ ] 2 transformações (scale, rotate, etc.)
 [ ] Transições aplicadas em elementos interativos
-[ ] efeitos.css criado e importado
+[x ] efeitos.css criado e importado
 [ ] README.md atualizado com seção de efeitos
