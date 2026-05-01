@@ -65,3 +65,15 @@ li:last-child{
 .img-lorenzo:hover {
     transform: rotateX(0deg);
 }
+.img-contato,
+input, textarea, button {
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    transform: scale(1.05) translateX(5px);
+}
+
+button:hover {
+    transform: scale(1.1) rotate(2deg);
+}
