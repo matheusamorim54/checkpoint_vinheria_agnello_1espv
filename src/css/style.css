@@ -91,3 +91,15 @@ li:nth-child(3){
 li:last-child{
     color: #3e3d3d;
 }
+
+@keyframes aparecer {
+  0%   { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.titulo-termos {
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; /* faz o efeito ir e voltar suavemente */
+}
