@@ -8,6 +8,7 @@ A Vinheria Agnello é uma empresa familiar especializada na venda de vinhos, con
 - Matheus de Amorim Brito - RM: 572435
 - Thiago Gomes Nascimento - RM: 569436
 - Vinicius Scalone Ramires - RM: 573783 
+- Eduardo Felix Frois Silva - RM: 574103 
 
 ## Instruções de uso
 1. Abra o arquivo `index.html` no navegador.
